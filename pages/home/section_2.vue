@@ -21,6 +21,7 @@
                 <p class="card-title" style="font-weight: 600">
                   {{ item.title }}
                 </p>
+                <p class="card-text">Rp {{ item.price }}</p>
                 <a
                   class="btn btn-primary w-100"
                   @click="goToWhatsapp(item.title)"
@@ -61,36 +62,37 @@ export default {
         {
           id: 1,
           title: 'Series 1.1',
+          price: '550.000',
           img: require('../../assets/model/model_2.jpeg'),
         },
         {
           id: 2,
           title: 'Series 1.2',
+          price: '550.000',
           img: require('../../assets/model/model_5.jpeg'),
         },
         {
           id: 3,
           title: 'Series 1.3',
+          price: '800.000',
           img: require('../../assets/model/model_6.jpeg'),
         },
         {
           id: 4,
           title: 'Series 1.4',
+          price: '800.000',
           img: require('../../assets/model/model_7.jpeg'),
         },
         {
           id: 5,
           title: 'Series 1.5',
+          price: '800.000',
           img: require('../../assets/model/model_8.jpeg'),
         },
         {
           id: 6,
           title: 'Series 1.6',
-          img: require('../../assets/model/model_9.jpeg'),
-        },
-        {
-          id: 7,
-          title: 'Series 1.7',
+          price: '800.000',
           img: require('../../assets/model/model_10.jpeg'),
         },
       ],
